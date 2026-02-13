@@ -1,0 +1,9 @@
+.notes-container{
+    height: 95%;
+    overflow-y:auto ;
+    padding: 1rem;
+
+    pre{
+        background-color: transparent !important;
+    }
+}

@@ -1,0 +1,92 @@
+.window {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: #979797;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: rgb(236, 236, 236);
+  transition: all 0.2s ease-in-out;
+  .nav {
+    display: flex;
+    gap: 0.75rem;
+    padding-inline: 0.5rem;
+    padding-block: 0.2rem;
+    border-bottom: 1px solid #303030;
+    .dots-container {
+      display: flex;
+      gap: 0.2rem;
+      .dots {
+        height: 15px;
+        width: 15px;
+        background-color: #fff;
+        border-radius: 50%;
+      }
+      .red {
+        background-color: red;
+        cursor: pointer !important;
+      }
+      .yellow {
+        background-color: rgb(255, 255, 0);
+        cursor: pointer !important;
+      }
+      .green {
+        background-color: rgb(0, 209, 59);
+        cursor: pointer !important;
+      }
+    }
+  }
+
+  .cards {
+    height: 95%;
+    overflow: scroll;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding-inline: 0.75rem;
+    padding-block: 0.5rem;
+    border-radius: 10px;
+    .card-container {
+      background-color: #303030;
+      min-height:270px;
+      width: 200px;
+      border: 1px solid white;
+      border-radius: 5px;
+      padding-inline: 0.75rem;
+      padding-block: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.7rem;
+      img {
+        height: 100px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+
+      .tech-stack-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+
+        .tag{
+          background-color: #454545;
+          padding: 0.3rem;
+          border-radius: 5px;
+        }
+      }
+      .link{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+    }
+  }
+
+    *::-webkit-scrollbar{
+     display: none;
+    }
+}

@@ -1,0 +1,126 @@
+/**
+ * @file: profile.config.ts
+ * @author: Kaustubh Sakpal
+ * @summary: Frontend-focused developer building real-world UI with logic.
+ */
+
+// --------------------------------------------------
+// 1. CORE SKILLS & TECH STACK
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "HTML",        // Strong
+    "CSS / SCSS",  // Strong
+    "JavaScript",  // Strong
+    "React.js",    // Intermediate
+  ],
+  concepts: [
+    "Responsive Design",
+    "Flexbox & Grid",
+    "Component-based UI",
+    "DOM Manipulation",
+    "Drag & Drop",
+    "LocalStorage",
+  ],
+  tools: [
+    "Git",
+    "GitHub",
+    "VS Code",
+    "Browser DevTools"
+  ]
+};
+
+// --------------------------------------------------
+// 2. DEVELOPMENT JOURNEY
+// --------------------------------------------------
+
+class DeveloperProfile {
+
+  /**
+   * @phase Learning by Building
+   * @period 2023 - Present
+   */
+  public buildProjects(): Record<string, string[]> {
+
+    const approach = [
+      "UI-first development",
+      "Logic breakdown step-by-step",
+      "Debugging using console & dry runs",
+      "Clean and readable code"
+    ];
+
+    const projects = [
+      "Snake Game (JS Logic + Collision Detection)",
+      "To-Do App (Drag & Drop)",
+      "Expense Tracker",
+      "Notes App (LocalStorage)",
+      "Portfolio UI (React)"
+    ];
+
+    return { approach, projects };
+  }
+
+  /**
+   * @focus Areas
+   */
+  public strengths(): string[] {
+    return [
+      "Strong JavaScript fundamentals",
+      "Understanding of how things work internally",
+      "Problem-solving mindset",
+      "UI logic & layout handling",
+      "Consistent improvement through practice"
+    ];
+  }
+}
+
+// --------------------------------------------------
+// 3. PROJECT HIGHLIGHTS
+// --------------------------------------------------
+
+interface Project {
+  name: string;
+  focus: string;
+}
+
+const featuredProjects: Project[] = [
+  {
+    name: "Snake Game",
+    focus: "Game logic, movement, collision, score handling"
+  },
+  {
+    name: "Kanban Board",
+    focus: "Drag & drop, state handling, UI flow"
+  },
+  {
+    name: "Expense Tracker",
+    focus: "Data handling, calculations, UI updates"
+  }
+];
+
+// --------------------------------------------------
+// 4. CURRENT STATUS
+// --------------------------------------------------
+
+const status = {
+  learning: "Advanced JavaScript & React patterns",
+  building: "Frontend-heavy real-world projects",
+  goal: "Become a job-ready Frontend Developer",
+  mindset: "Consistency > shortcuts"
+};
+
+export default new DeveloperProfile();
+
+
+/*
+  TERMINAL OUTPUT
+  ---------------------------------------
+  $ developer --info
+  > Name: Kaustubh Sakpal
+  > Role: Frontend Developer
+  > Stack: HTML | CSS | JavaScript | React
+  > Status: Learning, Building, Improving
+  > Mode: Focused
+  > Ready to ship 🚀
+*/

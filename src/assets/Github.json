@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Snake Game",
+    "description": "Classic snake game with collision detection, score tracking, and localStorage high score.",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "previewImage": "https://images.unsplash.com/photo-1611996575749-79a3a250f948",
+    "repoLink": "https://github.com/username/snake-game",
+    "liveLink": "https://username.github.io/snake-game"
+  },
+  {
+    "id": 2,
+    "title": "To-Do App",
+    "description": "Task management app with drag and drop and status columns.",
+    "techStack": ["HTML", "SCSS", "JavaScript"],
+    "previewImage": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
+    "repoLink": "https://github.com/username/todo-app",
+    "liveLink": "https://username.github.io/todo-app"
+  },
+  {
+    "id": 3,
+    "title": "Expense Tracker",
+    "description": "Track income and expenses with category summary and charts.",
+    "techStack": ["HTML", "CSS", "JavaScript", "Chart.js"],
+    "previewImage": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c",
+    "repoLink": "https://github.com/username/expense-tracker",
+    "liveLink": "https://username.github.io/expense-tracker"
+  },
+  {
+    "id": 4,
+    "title": "Weather App",
+    "description": "Real-time weather app using public API with search functionality.",
+    "techStack": ["JavaScript", "API", "CSS"],
+    "previewImage": "https://images.unsplash.com/photo-1501973801540-537f08ccae7b",
+    "repoLink": "https://github.com/username/weather-app",
+    "liveLink": "https://username.github.io/weather-app"
+  },
+  {
+    "id": 5,
+    "title": "Calculator",
+    "description": "Responsive calculator supporting basic arithmetic operations.",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "previewImage": "https://images.unsplash.com/photo-1587145820266-a5951ee6f620",
+    "repoLink": "https://github.com/username/calculator",
+    "liveLink": "https://username.github.io/calculator"
+  },
+  {
+    "id": 6,
+    "title": "Quiz App",
+    "description": "Timed quiz app with score calculation and result summary.",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "previewImage": "https://images.unsplash.com/photo-1523240795612-9a054b0db644",
+    "repoLink": "https://github.com/username/quiz-app",
+    "liveLink": "https://username.github.io/quiz-app"
+  },
+  {
+    "id": 7,
+    "title": "Password Generator",
+    "description": "Secure password generator with length and character controls.",
+    "techStack": ["JavaScript", "HTML", "CSS"],
+    "previewImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+    "repoLink": "https://github.com/username/password-generator",
+    "liveLink": "https://username.github.io/password-generator"
+  },
+  {
+    "id": 8,
+    "title": "Image Gallery",
+    "description": "Responsive image gallery with modal preview and filters.",
+    "techStack": ["HTML", "CSS Grid", "JavaScript"],
+    "previewImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "repoLink": "https://github.com/username/image-gallery",
+    "liveLink": "https://username.github.io/image-gallery"
+  },
+  {
+    "id": 9,
+    "title": "Landing Page",
+    "description": "Modern landing page with responsive layout and animations.",
+    "techStack": ["HTML", "CSS", "Flexbox"],
+    "previewImage": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    "repoLink": "https://github.com/username/landing-page",
+    "liveLink": "https://username.github.io/landing-page"
+  },
+  {
+    "id": 10,
+    "title": "Notes App",
+    "description": "Notes app with CRUD operations and localStorage persistence.",
+    "techStack": ["JavaScript", "HTML", "CSS"],
+    "previewImage": "https://images.unsplash.com/photo-1517842645767-c639042777db",
+    "repoLink": "https://github.com/username/notes-app",
+    "liveLink": "https://username.github.io/notes-app"
+  }
+]

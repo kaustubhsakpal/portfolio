@@ -1,0 +1,15 @@
+import React from 'react'
+import Windows from '../Windows/Windows'
+import './Spotify.scss'
+
+const Spotifiy = ({windowname,setWindowState}) => {
+  return (
+   <Windows width='30vw' windowname={windowname} setWindowState={setWindowState}>
+        <div className="spotify-container ">
+            <iframe data-testid="embed-iframe" style={{"border-radius":"12px"}} src="https://open.spotify.com/embed/playlist/38mWQAGEylOPPcWfDpB6FO?utm_source=generator&theme=0" width="100%" height="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+   </Windows>
+  )
+}
+
+export default Spotifiy
